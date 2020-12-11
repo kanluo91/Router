@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEEAD2402583482B00CA79D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEAD23F2583482B00CA79D3 /* AppDelegate.m */; };
+		AEEAD2432583482B00CA79D3 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEAD2422583482B00CA79D3 /* SceneDelegate.m */; };
+		AEEAD2462583482B00CA79D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEAD2452583482B00CA79D3 /* ViewController.m */; };
+		AEEAD2492583482B00CA79D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEEAD2472583482B00CA79D3 /* Main.storyboard */; };
+		AEEAD24B2583482D00CA79D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEEAD24A2583482D00CA79D3 /* Assets.xcassets */; };
+		AEEAD24E2583482D00CA79D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEEAD24C2583482D00CA79D3 /* LaunchScreen.storyboard */; };
+		AEEAD2512583482D00CA79D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEAD2502583482D00CA79D3 /* main.m */; };
+		E2EC7529D24D97AB6571F2CE /* Pods_CTMediatorProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F60CC903BF89ACE61CFAC9A0 /* Pods_CTMediatorProject.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AEEAD23B2583482B00CA79D3 /* CTMediatorProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CTMediatorProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEEAD23E2583482B00CA79D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AEEAD23F2583482B00CA79D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AEEAD2412583482B00CA79D3 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		AEEAD2422583482B00CA79D3 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		AEEAD2442583482B00CA79D3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AEEAD2452583482B00CA79D3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AEEAD2482583482B00CA79D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEEAD24A2583482D00CA79D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEEAD24D2583482D00CA79D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AEEAD24F2583482D00CA79D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEEAD2502583482D00CA79D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E06B70C2AE69E1A8548BC06A /* Pods-CTMediatorProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTMediatorProject.debug.xcconfig"; path = "Target Support Files/Pods-CTMediatorProject/Pods-CTMediatorProject.debug.xcconfig"; sourceTree = "<group>"; };
+		F60CC903BF89ACE61CFAC9A0 /* Pods_CTMediatorProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CTMediatorProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA82632A69BA4E0A5340D0CF /* Pods-CTMediatorProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTMediatorProject.release.xcconfig"; path = "Target Support Files/Pods-CTMediatorProject/Pods-CTMediatorProject.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEEAD2382583482B00CA79D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2EC7529D24D97AB6571F2CE /* Pods_CTMediatorProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		021FF0339F991E0EA68ED10C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E06B70C2AE69E1A8548BC06A /* Pods-CTMediatorProject.debug.xcconfig */,
+				FA82632A69BA4E0A5340D0CF /* Pods-CTMediatorProject.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A7C89D932AD5E12E70DF45BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F60CC903BF89ACE61CFAC9A0 /* Pods_CTMediatorProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AEEAD2322583482B00CA79D3 = {
+			isa = PBXGroup;
+			children = (
+				AEEAD23D2583482B00CA79D3 /* CTMediatorProject */,
+				AEEAD23C2583482B00CA79D3 /* Products */,
+				021FF0339F991E0EA68ED10C /* Pods */,
+				A7C89D932AD5E12E70DF45BA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AEEAD23C2583482B00CA79D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEEAD23B2583482B00CA79D3 /* CTMediatorProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEEAD23D2583482B00CA79D3 /* CTMediatorProject */ = {
+			isa = PBXGroup;
+			children = (
+				AEEAD23E2583482B00CA79D3 /* AppDelegate.h */,
+				AEEAD23F2583482B00CA79D3 /* AppDelegate.m */,
+				AEEAD2412583482B00CA79D3 /* SceneDelegate.h */,
+				AEEAD2422583482B00CA79D3 /* SceneDelegate.m */,
+				AEEAD2442583482B00CA79D3 /* ViewController.h */,
+				AEEAD2452583482B00CA79D3 /* ViewController.m */,
+				AEEAD2472583482B00CA79D3 /* Main.storyboard */,
+				AEEAD24A2583482D00CA79D3 /* Assets.xcassets */,
+				AEEAD24C2583482D00CA79D3 /* LaunchScreen.storyboard */,
+				AEEAD24F2583482D00CA79D3 /* Info.plist */,
+				AEEAD2502583482D00CA79D3 /* main.m */,
+			);
+			path = CTMediatorProject;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEEAD23A2583482B00CA79D3 /* CTMediatorProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEEAD2542583482D00CA79D3 /* Build configuration list for PBXNativeTarget "CTMediatorProject" */;
+			buildPhases = (
+				D3AD0BA05D12A8CFAC64F70A /* [CP] Check Pods Manifest.lock */,
+				AEEAD2372583482B00CA79D3 /* Sources */,
+				AEEAD2382583482B00CA79D3 /* Frameworks */,
+				AEEAD2392583482B00CA79D3 /* Resources */,
+				695AB54DC3487112D779ED97 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CTMediatorProject;
+			productName = CTMediatorProject;
+			productReference = AEEAD23B2583482B00CA79D3 /* CTMediatorProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEEAD2332583482B00CA79D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					AEEAD23A2583482B00CA79D3 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = AEEAD2362583482B00CA79D3 /* Build configuration list for PBXProject "CTMediatorProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEEAD2322583482B00CA79D3;
+			productRefGroup = AEEAD23C2583482B00CA79D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEEAD23A2583482B00CA79D3 /* CTMediatorProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEEAD2392583482B00CA79D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEEAD24E2583482D00CA79D3 /* LaunchScreen.storyboard in Resources */,
+				AEEAD24B2583482D00CA79D3 /* Assets.xcassets in Resources */,
+				AEEAD2492583482B00CA79D3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		695AB54DC3487112D779ED97 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CTMediatorProject/Pods-CTMediatorProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CTMediatorProject/Pods-CTMediatorProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CTMediatorProject/Pods-CTMediatorProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3AD0BA05D12A8CFAC64F70A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CTMediatorProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEEAD2372583482B00CA79D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEEAD2462583482B00CA79D3 /* ViewController.m in Sources */,
+				AEEAD2402583482B00CA79D3 /* AppDelegate.m in Sources */,
+				AEEAD2512583482D00CA79D3 /* main.m in Sources */,
+				AEEAD2432583482B00CA79D3 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AEEAD2472583482B00CA79D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEEAD2482583482B00CA79D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AEEAD24C2583482D00CA79D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEEAD24D2583482D00CA79D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEEAD2522583482D00CA79D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AEEAD2532583482D00CA79D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEEAD2552583482D00CA79D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E06B70C2AE69E1A8548BC06A /* Pods-CTMediatorProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 573HY9F79B;
+				INFOPLIST_FILE = CTMediatorProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kk.CTMediatorProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AEEAD2562583482D00CA79D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA82632A69BA4E0A5340D0CF /* Pods-CTMediatorProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 573HY9F79B;
+				INFOPLIST_FILE = CTMediatorProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kk.CTMediatorProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEEAD2362583482B00CA79D3 /* Build configuration list for PBXProject "CTMediatorProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEEAD2522583482D00CA79D3 /* Debug */,
+				AEEAD2532583482D00CA79D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEEAD2542583482D00CA79D3 /* Build configuration list for PBXNativeTarget "CTMediatorProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEEAD2552583482D00CA79D3 /* Debug */,
+				AEEAD2562583482D00CA79D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEEAD2332583482B00CA79D3 /* Project object */;
+}
