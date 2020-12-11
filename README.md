@@ -1,12 +1,14 @@
 ### Router的三种方案
 路由案例
 
-#### 1.  CTMediator
-#### 2.  URL-Block
-#### 3.  Protocol
+#### 1.  URL-Block
+#### 2.  Target-Action
+#### 3.  Protocol-Class
 
 
 ###  各个方案的优缺
+
+#### 1.  URL-Block
 
 
 
